@@ -1,0 +1,149 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.page-light {
+  background-color: #F9F6F1;
+}
+
+.page-dark {
+  background-color: #212121;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 33px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 46px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-right: 52px;
+}
+
+.nav-link {
+  color: #212121;
+  text-decoration: none;
+}
+
+.cart {
+  background-image: url(../img/Vector.svg);
+  padding-left: 45px;
+  padding-right: 30px;
+  display: block;
+  height: 26.28px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #D7B399;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 18px 28px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.main .sale-description {
+  font-size: 30px;
+}
+
+.main .sale-title {
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.box {
+  position: relative;
+}
+
+.box-price {
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+
+.box-price-old {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  text-align: right;
+}
+
+.box-price-new {
+  font-size: 42px;
+  font-weight: 700;
+  color: #D84033;
+  margin-top: 17px;
+}
+
+.notice {
+  text-align: center;
+  color: #FFFFFF;
+  padding: 50px 0;
+}
+
+.notice-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.notice-title span {
+  font-weight: 700;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid blue;
+}
+/*# sourceMappingURL=style.css.map */
