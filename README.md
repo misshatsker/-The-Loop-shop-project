@@ -1,2 +1,2 @@
 # -The-Loop-shop-project
-"The Loop" shop project. Only HTML &amp; CSS
+"The Loop" shop project. HTML &amp; CSS &amp; SCSS 
