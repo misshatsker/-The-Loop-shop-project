@@ -61,8 +61,16 @@ body {
   height: 26.28px;
   background-repeat: no-repeat;
   background-position: 0 center;
-  margin-bottom: 12px;
-  cursor: pointer;
+}
+
+.cart-count {
+  background-color: #D7B399;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6.5px 24px;
+  display: block;
 }
 
 .button {
