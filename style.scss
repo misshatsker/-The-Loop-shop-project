@@ -1,145 +1,152 @@
-$accent:#D7B399;
-$dark: #212121;
-$cream:#F9F6F1;
-$красное:#D84033;
-$сірий:#CBCFD4;
-$білий:#FFFFFF;
-$світлосірий:#F4F4F4;
+// $accent:#D7B399;
+// $dark: #212121;
+// $cream:#F9F6F1;
+// $red:#D84033;
+// $grey:#CBCFD4;
+// $white:#FFFFFF;
+// $lightgrey:#F4F4F4;
 
-body{
-    font-family: 'Montserrat', sans-serif;
-}
+// body{
+//     font-family: 'Montserrat', sans-serif;
+// }
 
-.page{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    &-light{
-        background-color: $cream;
-}
-    &-dark{
-        background-color: $dark; 
-    }
-}
-.wrapper{
-    max-width: 1110px;
-    margin: 0 auto;
-}
+// .page{
+//     padding-top: 100px;
+//     padding-bottom: 100px;
+//     &-light{
+//         background-color: $cream;
+// }
+//     &-dark{
+//         background-color: $dark; 
+//     }
+// }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 33px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 46px;
-}
+// .wrapper{
+//     max-width: 1110px;
+//     margin: 0 auto;
+// }
 
-.nav{
-    display: flex;
-    list-style-type: none;
-    padding-left: 0;
-    &-item{
-        margin-right: 52px;
-    }
-    &-link{
-        color: $dark; 
-        text-decoration: none;
-    }
-}
+// .header{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding-bottom: 33px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     padding-top: 46px;
+// }
 
+// .nav {
+//     display: flex;
+//     list-style-type: none;
+//     padding-left: 0;
+//     &-item{
+//         margin-right: 52px;
+//     }
+//     &-link{
+//         color: $dark;
+//         text-decoration: none;
+//     }
+// }
 
+// .cart {
+//     background-image: url(../img/Vector.svg);
+//     padding-left: 45px;
+//     padding-right: 30px;
+//     display: block;
+    
+//     height: 26.28px;
+//     background-repeat: no-repeat;
+//     background-position: 0 center;
+    
+// &-count {
+//     background-color: $accent;
+//     color: $white;
+//     text-align: center;
+//     font-size: 12px;
+//     font-weight: 700;
+//     padding: 6.5px 24px;
+//     display: block;
+//     }
+// }
 
-.cart{
-        background-image: url(../img/Vector.svg);
-        padding-left: 45px;
-        padding-right: 30px;
-        display: block;
-        
-        height: 26.28px;
-        background-repeat: no-repeat;
-        background-position: 0 center;
-        
-    &-count{
-        background-color: $accent;
-        color: $білий;
-        text-align: center;
-        font-size: 12px;
-        font-weight: 700;
-        padding: 6.5px 24px;
-        display: block;
-        }
-    }
-    .knopka{
-        background-color: $accent;
-        color: $білий;
-        font-size: 16px;
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 18px 28px;
-    }
-.main{
-    display: flex;
-       justify-content: space-between;
-        &-item{
-            flex: 0 0 50%;
-        }
-        .sale{
-            &-description{
-                font-size: 30px;
+// .button {
+//     background-color: $accent;
+//     color: $white;
+//     font-size: 16px;
+//     text-transform: uppercase;
+//     text-decoration: none;
+//     padding: 18px 28px;
+// }
+
+// .main {
+//     display: flex;
+//     justify-content: space-between;
+//         &-item{
+//             flex: 0 0 50%;
+//         }
+//         .sale{
+//             &-description{
+//                 font-size: 30px;
                 
-              }
-            &-title{
-                font-size: 55px;
-                font-weight: 700;
-                margin-top: 30px;
-                margin-bottom: 60px;
-        }
-        }
-}
+//             }
+//             &-title{
+//                 font-size: 55px;
+//                 font-weight: 700;
+//                 margin-top: 30px;
+//                 margin-bottom: 60px;
+//         }
+//         }
+//     }
 
-.box{
-    position: relative;
-    &-price{
-        position: absolute;
-        right: 0;
-        top: 35px;
-    &-old{
-        font-size: 24px;
-        font-weight: 700;
-        color:black;
-        text-align: right;
-    }
-    &-new{
-        font-size: 42px;
-        font-weight: 700;
-        color:#D84033;
-        margin-top: 17px;
-    }
-    }
-    
-}
+// .box {
+//     position: relative;
+//     &-price{
+//         position: absolute;
+//         right: 0;
+//         top: 35px;
+//     &-old{
+//         font-size: 24px;
+//         font-weight: 700;
+//         color: $black;
+//         text-align: right;
+//     }
+//     &-new{
+//         font-size: 42px;
+//         font-weight: 700;
+//         color:$red;
+//         margin-top: 17px;
+//     }
+//     } 
+// }
 
-.notice{
-    text-align: center;
-    color: $білий;
-    padding: 50px 0;
-    &-title{
-        font-size: 30px;
-        text-transform: uppercase;
-        span{
-            font-weight: 700;
-        }
-    }
-    &-notitle{
-        
-    }
-}
-.arrow-left {
-    width: 0; 
-    height: 0; 
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
+// .notice {
+//     text-align: center;
+//     color: $white;
+//     padding: 50px 0;
+//     &-title{
+//         font-size: 30px;
+//         text-transform: uppercase;
+//         span{
+//             font-weight: 700;
+//         }
+//     }
+// }
+
+// .arrow-left {
+//     width: 0; 
+//     height: 0; 
+//     border-top: 10px solid transparent;
+//     border-bottom: 10px solid transparent; 
     
-    border-right:10px solid blue; 
-  }
+//     border-right:10px solid blue; 
+// }
+
+// .collection {
+//     display: flex;
+//     justify-content: space-around;
+//   }
+
+// h6 {
+//     color: #D84033;
+// }
